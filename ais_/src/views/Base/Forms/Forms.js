@@ -186,8 +186,7 @@ class Forms extends Component {
       if (formnm === 'form4' && e.target.name === 'marital_status' && (e.target.value !== '2' && e.target.value !== '3')) {
         form.elements[index + 2].focus();
         form.elements[index + 2].select();
-      }
-      
+      }      
       // console.log(formnm)
     }
 
